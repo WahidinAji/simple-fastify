@@ -5,7 +5,7 @@ const {
   deleteItem,
   updateItem,
 } = require('../controllers/items');
-const Item = require('../repository/ItemRepository');
+const Item = require('../schema/ItemSchema');
 
 // Options fo get all
 const getItemsOpts = {

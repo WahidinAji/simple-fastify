@@ -1,4 +1,3 @@
-// Item Schema
 const Item = {
   type: 'object',
   properties: {

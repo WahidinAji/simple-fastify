@@ -2,7 +2,7 @@ const {
   getAllStudents,
   getByIdStudents,
 } = require('../controllers/StudentsController');
-const Student = require('../repository/StudentRepository');
+const Student = require('../schema/StudentSchema');
 
 // Options for get student by id
 const getStudentsOpts = {
