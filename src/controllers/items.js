@@ -32,9 +32,7 @@ const updateItem = (req, reply) => {
   const { id } = req.params;
   const { name } = req.body;
   items = items.map((item) => (item.id === id ? { id, name } : item));
-  // eslint-disable-next-line no-undef
   item = items.find((item) => item.id === id);
-  // eslint-disable-next-line no-undef
   reply.send(item);
 };
 
